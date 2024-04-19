@@ -1,0 +1,11 @@
+<div class="container">
+    <app-game-controller (emitNumber)="onNumberEmmited($event)"></app-game-controller>
+    <div class="row">
+        <div class="col-6">odd:
+            <app-odd *ngFor="let n of oddList" [val]="n"></app-odd>
+        </div>
+        <div class="col-6">even:
+            <app-even *ngFor="let n of evenList" [val]="n"></app-even>
+        </div>
+    </div>
+</div>

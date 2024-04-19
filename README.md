@@ -1,2 +1,0 @@
-# angularCourse
-projects and assignments
